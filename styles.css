@@ -146,7 +146,9 @@ body {
     
 }
 footer {
-  padding: 50px;
+    font-family: "Figtree";
+    src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+  padding: 100px;
   text-align: center;
   font-size: 14px;
 }
