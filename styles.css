@@ -1,9 +1,11 @@
 body {
     background-color: #F4D04E;
     font-weight: 100;
+    
 }
 #textbox{
     width: 336px;
+    
     
 }
 #content {
@@ -16,6 +18,11 @@ body {
     padding: 0 24px;
     border-radius: 20px;
     padding-top: 24px ;
+    box-shadow: 10px 10px   rgba(0, 0, 0, 1);
+    animation: ease-in;
+    transition: 0.6s;
+    
+
 }
 
 #textmain p {
@@ -28,9 +35,10 @@ body {
     margin: 0;
     margin-bottom: 14px;
     margin-top: 14px;
+    
 }
 
-#title h3 {
+.titulo {
     font-family:"Figtree";
     src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
     font-size: 24px;
@@ -40,7 +48,17 @@ body {
     font-weight: 800;
     margin-bottom: 14px;
     margin-top: 14px;
+    display: block;
+    
    
+}
+.titulo:hover {
+    color: #F4D04E;
+    cursor: pointer;
+    transition: 0.4s;
+    
+    
+
 }
 
 #imageshape img {
@@ -52,12 +70,13 @@ body {
 
 #navigation {
    background-color: #F4D04E;
-   border-radius: 4%; 
+    border-radius: 4px; 
    width: 82px;
    height: 29px;
 
 }
-#navigation p {
+.nav {
+    
    padding: 4px 12px 4px 12px ;
    font-family: "Figtree";
     src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
@@ -86,8 +105,8 @@ body {
     font-size: 14px;
     font-weight: 700;
     line-height: 150%;
-   display: flex;
-   align-items: center;
+    display: flex;
+    align-items: center;
 }
 #profileimage span{
     padding-left: 12px;
