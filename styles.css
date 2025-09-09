@@ -1,31 +1,39 @@
 body {
     background-color: #F4D04E;
-    font-weight: 100;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    
+    
     
 }
 #textbox{
-    width: 336px;
+    
+    width: 90%;
     
     
 }
 #content {
+    
     background-color: #FFFFFF;
     border: 1px solid black;
-    width: 100%;
+    width: 80%;
     max-width: 384px;
     max-height: 522px;
     margin: 219px auto 219px;
-    padding: 0 24px;
+    padding: 24px;
     border-radius: 20px;
     padding-top: 24px ;
     box-shadow: 10px 10px   rgba(0, 0, 0, 1);
     animation: ease-in;
-    transition: 0.6s;
+    transition: 0.6s ease-in;
     
 
 }
 
 #textmain p {
+    -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
     font-family:"Figtree";
     src: url(./assets/fonts/static/Figtree-Medium.ttf);
     font-size: 16px;
@@ -36,9 +44,12 @@ body {
     margin-bottom: 14px;
     margin-top: 14px;
     
+    
 }
 
 .titulo {
+    -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
     font-family:"Figtree";
     src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
     font-size: 24px;
@@ -76,7 +87,8 @@ body {
 
 }
 .nav {
-    
+    -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
    padding: 4px 12px 4px 12px ;
    font-family: "Figtree";
     src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
@@ -86,6 +98,8 @@ body {
    
 }
 #second_header h4 {
+    -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
     font-family: "Figtree";
     src: url(./assets/fonts/static/Figtree-Medium.ttf);
     font-size: 14px;
@@ -96,6 +110,8 @@ body {
     
 }
 #profileimage{
+    -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
     margin-bottom: 24px;
     margin-top: 24px;
     width: 129px;
@@ -108,12 +124,29 @@ body {
     display: flex;
     align-items: center;
 }
+
 #profileimage span{
     padding-left: 12px;
+
 }
+
+#profileimage span:hover {
+    color: #F4D04E;
+    cursor: pointer;
+    padding-left: 12px;
+    transition: 0.4s;
+
+
+}
+
 #profileimage img{
     width: 32px;
     height: 32px;
     
     
+}
+footer {
+  padding: 50px;
+  text-align: center;
+  font-size: 14px;
 }
